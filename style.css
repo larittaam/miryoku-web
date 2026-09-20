@@ -9,6 +9,7 @@ body{
 }
 #miryoku{
     text-align: left;
+    padding: 2%;
     padding-left: 3%;
     color: rgb(243, 238, 190);
     font-family: "Mukta", sans-serif;
@@ -28,11 +29,12 @@ header{
     height: 100vh;
     background-repeat: no-repeat;
 }
-h2{
+h2{ /*Tu estilo, tu cuerpo, tu bikini*/
     color: rgb(243, 238, 190);
     font-family: "Dela Gothic One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 300%;
 
     transition: transform 0.3s ease;
     transform-origin: center;
@@ -40,12 +42,12 @@ h2{
  h2:hover{
     transform: scale(1.1);
  }
-h3{
+h3{ /*Porque senrite linda tambien es parte del verano*/
     color: white;
     font-family: "Birthstone", sans-serif;
     font-weight: 400;
     font-style: normal;
-
+    font-size: 200%;
     transition: transform 0.3s ease;
     transform-origin: center;
 }
@@ -54,8 +56,11 @@ h3:hover{
 }
 #whatsapp{
     position: fixed;
-    margin-top: 33%;
-    margin-left: 43%;
+    bottom: 90px; 
+    right: 10px; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px;
 
     transition: transform 0.3s ease;
     transform-origin: center;
@@ -65,9 +70,13 @@ h3:hover{
 }
 #instagram{
     position: fixed;
-    margin-top: 28%;
-    margin-left: 43%;
-     transition: transform 0.3s ease;
+    bottom: 10px; 
+    right: 10px; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px;
+    
+    transition: transform 0.3s ease;
     transform-origin: center;
 }
 #instagram:hover{
@@ -86,7 +95,7 @@ main{
     font-family: "Dela Gothic One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 250%;
+    font-size: 300%;
     margin-top: 1%;
  }   
 #sol{
@@ -95,7 +104,7 @@ main{
     font-family: "Petit Formal Script", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 150%;
+    font-size: 250%;
 }
 #pedido{
     background-color: rgb(243, 238, 190);
