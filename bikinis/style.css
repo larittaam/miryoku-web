@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+#miryoku{
+    text-align: left;
+    padding-left: 3%;
+    color: rgb(243, 238, 190);
+    font-family: "Mukta", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000; /*Un valor tan alto como 1000 hace que se asegure de estar siempre por encima de otros elemento, si otro elemento contiene un valor mas alto como 2000, lo va a tapar*/
+    background-color: rgba(101, 114, 41, 0.2); /* El 0.2 hace que se haga transparente, (0. cualquier numero, mas grande el numero despues del punto, menos transparente )*/ 
+}
+header{
+    text-align: center;
+    font-size: xx-large;
+    background-image:url(imagen/pileta.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+h2{
+    color: rgb(243, 238, 190);
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    transition: transform 0.3s ease;
+    transform-origin: center;
+}
+ h2:hover{
+    transform: scale(1.1);
+ }
+h3{
+    color: white;
+    font-family: "Birthstone", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    transition: transform 0.3s ease;
+    transform-origin: center;
+}
+h3:hover{
+    transform: scale(1.1);
+}
+#whatsapp{
+    position: fixed;
+    margin-top: 33%;
+    margin-left: 43%;
+
+    transition: transform 0.3s ease;
+    transform-origin: center;
+}
+#whatsapp:hover{
+    transform: scale(1.3);
+}
+#instagram{
+    position: fixed;
+    margin-top: 28%;
+    margin-left: 43%;
+     transition: transform 0.3s ease;
+    transform-origin: center;
+}
+#instagram:hover{
+    transform: scale(1.3);
+}
+main{
+    border-top: 15px solid rgb(243, 238, 190); 
+    background-image: url(imagen/mar.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+#sentite{
+    text-align: center;
+    color: rgb(232, 253, 138);
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 250%;
+    margin-top: 1%;
+ }   
+#sol{
+    text-align: center;
+    color: rgb(252, 251, 250);
+    font-family: "Petit Formal Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150%;
+}
+#pedido{
+    background-color: rgb(243, 238, 190);
+}
+ #querespedido{
+    
+    color: rgb(96, 202, 179);
+    font-size: xx-large;
+    margin-top: 10%;
+    
+ }
+ #envianoswhatsapp{
+    color: rgb(51, 219, 202);
+    font-size: xx-large;
+ }
+ #queresver{
+    color: rgb(96, 202, 179);
+    font-size: xx-large;
+ }
+ #mira{
+    color: rgb(51, 219, 202);
+    font-size: xx-large;
+ }
+ 
